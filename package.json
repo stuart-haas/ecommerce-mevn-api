@@ -8,7 +8,7 @@
   "scripts": {
     "up": "docker-compose up",
     "down": "docker-compose down",
-    "setup": "docker exec -it ecommerce_app node scripts/setup",
+    "setup": "docker exec -it ecommerce_server node scripts/setup",
     "dev": "nodemon --watch src src/index.js",
     "start": "node src/index.js"
   },
